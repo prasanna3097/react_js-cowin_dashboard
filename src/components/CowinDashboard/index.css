@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.cowin-container {
+  background-color: #161625;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.main-head-container {
+  display: flex;
+  align-items: center;
+}
+.website-logo {
+  height: 20px;
+  width: 20px;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #2cc6c6;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.title {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 25px;
+  margin-top: 0px;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-image {
+  height: 300px;
+  width: 300px;
+}
+.failure-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
